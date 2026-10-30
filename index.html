@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Epstain Library</title>
+    <link rel="icon" type="image/x-icon" href="public/images/icon.ico">
+    <meta
+      name="description"
+      content="A classified collection of things that should probably have stayed forgotten."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <script src="cursor.js" defer></script>
+  </head>
+  <body class="landing-active">
+    <div class="app-shell">
+      <div class="view landing-view active">
+        <div class="landing-noise"></div>
+        <header class="landing-header">
+          <div class="branding-block">
+            <p class="eyebrow">ARCHIVE ACCESS</p>
+            <h1>EPSTAIN LIBRARY</h1>
+            <p class="subtitle">
+              “A classified collection of things that should probably have stayed forgotten.”
+            </p>
+          </div>
+        </header>
+
+        <main class="landing-main">
+          <form class="search-cta-wrap" action="lib.html" method="get">
+            <label class="landing-search" for="homeSearch">
+              <span class="search-icon">⌕</span>
+              <input
+                id="homeSearch"
+                name="q"
+                type="text"
+                placeholder="Search the archive…"
+                aria-label="Search the archive"
+              />
+            </label>
+
+            <p class="search-helper">
+              Search incidents, people, descriptions, titles, files and archived moments.
+            </p>
+
+            <button class="primary-action" type="submit">
+              ENTER THE LIBRARY
+            </button>
+            <a class="primary-action game-entry-action" href="public/game/game.html">
+              ENTER THE GAME
+            </a>
+          </form>
+        </main>
+      </div>
+    </div>
+  </body>
+</html>

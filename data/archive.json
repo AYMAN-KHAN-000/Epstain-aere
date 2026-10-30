@@ -1,0 +1,247 @@
+{
+  "folders": [
+    "Entry",
+    "MEETUPS",
+    "KIDNAPPED",
+    "PARTY",
+    "WITH EPSTAIN",
+    "CRINGE",
+    "CASES",
+    "CRIMINALS",
+    "SICRETS",
+    "AERE & BAC"
+  ],
+  "items": [
+    {
+      "id": "case-0001",
+      "title": "Mikail with Epstain",
+      "description": "The first time MR. Epstain and Mikail met, they hugged and greeted each other with a handshake. Mikail was so excited to meet Epstain that he jumped into his arms and hugged him tightly, causing Epstain to stumble back and fall onto the floor. The incident was witnessed by several people, who were both shocked and amused by the display of affection.",
+      "folders": ["Entry", "MEETUPS"],
+      "category": "Entry",
+      "date": "1987-06-14",
+      "people": ["Mikail", "Epstain", "Mike","Miky","Miki"],
+      "tags": ["Party", "members", "criminals", "meetup"],
+      "metadata": "Case #0001 • Island • First meetup • 13:42",
+      "imageAddress": "public/images/mikail1.jpg"
+    },
+    {
+      "id": "case-0002",
+      "title": "Imtiaz with Epstain",
+      "description": "Imtiaz was invited for the party, after receiving the invitation, he fast went out for his brother Epstain. They tightly hugged each other, greeted each other with love and honor. The picture was captured by a friend, who was also invited for the party.",
+      "folder": ["Entry", "MEETUPS"],
+      "category": "Entry",
+      "date": "1987-06-14",
+      "people": ["Imtiaz", "Epstain"],
+      "tags": ["Party", "members", "criminals", "meetup"],
+      "metadata": "Case #0002 • Island • First meetup • 15:42",
+      "imageAddress": "public/images/imtiaz1.jpg"
+    },
+    {
+      "id": "case-0003",
+      "title": "Sourov in the island",
+      "description": "After getting invitition for the party, Sourov reached in time in the island. Then after meeting Epstain, Epstain took him to his guest room to take rest as he was tired after the journey. It was night and he was in the bed. The picture was captured by himself as he was making tiktok videos at that time.",
+      "folder": "Entry",
+      "category": "Entry",
+      "date": "1987-06-14",
+      "people": ["Sourov", "Epstain"],
+      "tags": ["Party", "members", "criminals", "meetup"],
+      "metadata": "Case #0003 • Island • First meetup • 16:42",
+      "imageAddress": "public/images/sourov1.jpg"
+    },
+    {
+      "id": "case-0004",
+      "title": "Redwan in the island",
+      "description": "Same as Sourov and Redwan together reached the island for the party. Party was going to start the next day. So, he was also taken to the guest room to take rest. In the guestroom, he was flexing his skinny muscles and showing his body to Epstain. The picture was captured by himself.",
+      "folder": "Entry",
+      "category": "Entry",
+      "date": "1987-06-14",
+      "people": ["Redwan", "Epstain"],
+      "tags": ["Party", "members", "criminals", "meetup"],
+      "metadata": "Case #0004 • Island • First meetup • 17:50",
+      "imageAddress": "public/images/soket1.jpg"
+    },
+     {
+      "id": "case-0005",
+      "title": "Ayman with Epstain",
+      "description": "Epstain sent his luxury yacht ship to pick up Ayman. After reaching the island, Epstain got up on the yacht and exchanged playful banter with 2 glasses of beer. The picture was taken by Ayman as a selfie.",
+      "folder": ["Entry", "MEETUPS"],
+      "category": "Entry",
+      "date": "1987-06-14",
+      "people": ["Ayman", "Epstain", "Flex"],
+      "tags": ["Party", "members", "criminals", "meetup"],
+      "metadata": "Case #0005 • Island • First meetup • 11:50",
+      "imageAddress": "public/images/ayman1.png"
+    },
+     {
+      "id": "case-0006",
+      "title": "Saim with Epstain",
+      "description": "Mr. saim reached the party a day before other came. So, after the rest in Epstain's guest house, he went to the swimmingpool with Epstain. The picture was captured by a caretaker of Epstain.",
+      "folder": ["Entry", "MEETUPS"],
+      "category": "Entry",
+      "date": "1987-06-14",
+      "people": ["Saim", "Epstain"],
+      "tags": ["Party", "members", "criminals", "meetup"],
+      "metadata": "Case #0006 • Island • First meetup • 13:50",
+      "imageAddress": "public/images/saim1.png"
+    },
+      {
+      "id": "case-0007",
+      "title": "Mashfi's Entry in the island",
+      "description": "Epstain sent his luxuary helicopter to pick up Mashfi. After reaching the island, he was welcomed by Epstain and they both hugged each other. The picture was captured by a friend of Epstain.",
+      "folder": ["Entry", "MEETUPS"],
+      "category": "Entry",
+      "date": "1987-06-14",
+      "people": ["Mashfi", "Epstain"],
+      "tags": ["Party", "members", "criminals", "meetup"],
+      "metadata": "Case #0007 • Island • First meetup • 14:50",
+      "imageAddress": "public/images/msf1.png"
+    },
+    {
+      "id": "case-0008",
+      "title": "BAC member's Entry.",
+      "description": "All the members of BAC reached the island for the party. They were so excited for the party that they jumped screaming and shouting. The picture was captured by a friend of Epstain.",
+      "folder": "Entry",
+      "category": "Entry",
+      "date": "1987-06-13",
+      "people": ["Mashfi", "Epstain"],
+      "tags": ["Party", "members", "criminals", "meetup"],
+      "metadata": "Case #0008 • Island • First meetup • 14:50",
+      "imageAddress": "public/images/bac1.jpg"
+    },
+    {
+      "id": "case-0010",
+      "title": "AERE member's Entry.",
+      "description": "All the members of AERE reached the island for the party. the photo is in the party while they were taking dinner with epstain.",
+      "folder": ["Entry", "PARTY"],
+      "category": ["Entry", " MEETUPS"],
+      "date": "1987-06-20",
+      "people": ["Mashfi", "Epstain"],
+      "tags": ["Party", "members", "criminals", "meetup"],
+      "metadata": "Case #0010 • Island • First meetup • 14:50",
+      "imageAddress": "public/images/aere.jpg"
+    },
+
+
+
+
+
+
+
+
+
+
+
+
+
+        {
+      "id": "criminal-0001",
+      "title": "Imtiaz Sadi",
+      "description": "A young business man, brother of Epstain. He is owner of Diddyoil Company. Diddyoil is a multinational company which is involved in oil and gas exploration, production, refining, and distribution. Imtiaz Sadi is known for his business acumen and has been instrumental in expanding the company's operations globally.",
+      "folder": "CRIMINALS",
+      "category": "CRIMINALS",
+      
+      
+      "tags": ["Imtiaz", "members", "criminals", "Party","People"],
+      "metadata": "Criminals • Island • Party • Members",
+      "imageAddress": "public/images/imtiaz2.png"
+    },
+    {
+      "id": "criminal-0002",
+      "title": "Jeffrey Epstein",
+      "description": "Jeffrey Epstein was an American financier and convicted sex offender. He was born on January 20, 1953, in Brooklyn, New York, and died on August 10, 2019, in New York City. Epstein began his career in finance at Bear Stearns before founding his own financial management firm, J. Epstein & Co. He was known for his connections to high-profile individuals, including politicians, celebrities, and royalty. Epstein's criminal activities came to light in the mid-2000s when he was accused of sexually abusing underage girls. He was arrested in July 2019 on federal charges of sex trafficking minors but died by suicide in his jail cell a month later. His death sparked widespread controversy and conspiracy theories due to the circumstances surrounding it.",
+      "folder": "CRIMINALS",
+      "category": "CRIMINALS",
+      
+      
+      "tags": ["Jeffrey", "members", "criminals", "Party","People"],
+      "metadata": "Criminals • Island • Party • Members",
+      "imageAddress": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/1701x2302+0+0/resize/1100/quality/50/format/jpeg/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2F8b%2F3f%2F2ff38d30495aba5e9108b1e3ad38%2Fgettyimages-589140344.jpg"
+    },
+    {
+      "id": "criminal-0003",
+      "title": "Ayman Khan",
+      "description": "Ayman Khan was a famous influencer, Businessman and a young billioner. He owned a successful science, research and technology organization named BAT industries. He was secretly Batman 🦇. He was known for his luxurious lifestyle and has a significant following on social media platforms. Ayman Khan has been involved in various business ventures, including real estate and fashion. He was also known for his philanthropic efforts and has contributed to several charitable causes. He had business and political connections with Epstain. He was also a close friend of Epstain. He was also a member of the party in the island.",
+      "folder": "CRIMINALS",
+      "category": "CRIMINALS",
+      
+      
+      "tags": ["Ayman", "members", "criminals", "Party","People"],
+      "metadata": "Criminals • Island • Party • Members",
+      "imageAddress": "public/images/ayman2.png"
+    },
+    {
+      "id": "criminal-0004",
+      "title": "Saim Dawan",
+      "description": "Saim Dawan is a famous Russian Mafia. Though he is a Russian Mafia, he is also a famous influencer, businessman and a charity worker. He was once connected to crimes and illegal activities. But in 1980 he left all the illegal activities and started his own business. Now he is both a billioner and political powered person. He had business and political relations with Epstain for several years. He was also a member of the party in the island.",
+      "folder": "CRIMINALS",
+      "category": "CRIMINALS",
+      
+      
+      "tags": ["Saim", "members", "criminals", "Party","People"],
+      "metadata": "Criminals • Island • Party • Members",
+      "imageAddress": "public/images/saim2.png"
+    },
+    {
+      "id": "criminal-0005",
+      "title": "Mr. Mashfi",
+      "description": "Mr. Mashfi is a famous goalkeeper of an international football club. He is also known as A Barishailla GoalKeeper of CUM UNITED. Cum united is a famous football club of bangladesh. The club won many european and international football tournaments. Mr. Mashfi is known for his exceptional skills and has been a key player in the team's success. He has also represented his country in various international competitions. He was also liked by Epstain. HE was epstains favourite footballer. In 1980 he won balon d'or award for his exceptional performance in the field. He is also known for his philanthropic efforts and has contributed to several charitable causes.",
+      "folder": "CRIMINALS",
+      "category": "CRIMINALS",
+      
+      
+      "tags": ["Mashfi", "members", "criminals", "Party","People"],
+      "metadata": "Criminals • Island • Party • Members",
+      "imageAddress": "public/images/mashfi2.png"
+    },
+    {
+      "id": "criminal-0006",
+      "title": "Mr. Zulfiqure",
+      "description": "Zulfiqure, also known as The Shadow, is a mysterious and dangerous criminal mastermind who is listed as one of the most wanted individuals. He is known for his intelligence, silent movements, and unpredictable personality. He operates in the shadows and rarely leaves any trace behind, keeping his identity a mystery to most people. He is cold-minded, fearless, strategic, and highly secretive. He is believed to be involved in high-profile fictional criminal activities, deception, and underground connections. Due to his mysterious nature and dangerous reputation, his threat level is considered extremely high. His current status is at large, and his criminal case file is registered under the code ZF-007.",
+      "folder": "CRIMINALS",
+      "category": "CRIMINALS",
+      
+      
+      "tags": ["Zulfiqure", "members", "criminals", "Party","People"],
+      "metadata": "Criminals • Island • Party • Members",
+      "imageAddress": "public/images/zul.jpg"
+    },
+    {
+      "id": "criminal-0007",
+      "title": "Mr. Zuhair",
+      "description": "Zuhair, also known as The Ghost, is a mysterious fictional criminal known for his intelligence, cunning mind, and secretive nature. He is highly strategic and unpredictable, always avoiding attention and leaving behind very few clues. He is known for deception, mystery, and manipulation. His personality is silent, clever, fearless, and calculating. His last known status remains unknown, and the investigation is still ongoing under the supervision of the Special Crime Investigation Unit. His case is registered under the code ZH-009, and he is currently listed as a wanted individual with a high threat level.",
+      "folder": "CRIMINALS",
+      "category": "CRIMINALS",
+      
+      
+      "tags": ["Zuhair", "members", "criminals", "Party","People"],
+      "metadata": "Criminals • Island • Party • Members",
+      "imageAddress": "public/images/adib1.jpg"
+    },
+   
+
+
+
+
+
+
+
+
+
+
+
+    {
+      "id": "Kidnapped-0001",
+      "title": "Isfar a small kid got kidnapped form vadail road",
+      "description": "Isfar is a small kid who was kidnapped from Vadail road. The incident took place in the evening when Isfar was playing outside his house. The kidnappers were able to lure him away with promises of candy and toys. The family immediately reported the incident to the local authorities, who launched a search operation to locate the missing child. This picture is captured by epstain while he was playing with the kid in the island.",
+      "folder": "KIDNAPPED",
+      "category": "KIDNAPPED",
+      "date": "1987-05-10",
+      "people": ["Isfar", "Epstain"],
+      "tags": ["Party", "Kidnapped", "Kid", "crimed"],
+      "metadata": "Kidnapped • Island • Party",
+      "imageAddress": "public/images/isfar1.jpg"
+    }
+
+
+  ]
+}
