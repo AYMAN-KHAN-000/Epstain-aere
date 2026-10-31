@@ -1,5 +1,6 @@
 const ACCESS_MODE_KEY = 'epstainLibraryAccess';
 const PENDING_DESTINATION_KEY = 'epstainLibraryDestination';
+const HOME_NAVIGATION_KEY = 'epstainLibraryHomeNavigation';
 
 window.archiveAccess = {
   getMode() {
@@ -15,13 +16,17 @@ window.archiveAccess = {
 
 const accessGate = document.getElementById('accessGate');
 if (accessGate) {
-  sessionStorage.removeItem(ACCESS_MODE_KEY);
-
   const form = document.getElementById('accessGateForm');
   const passwordInput = document.getElementById('archivePassword');
   const errorMessage = document.getElementById('accessGateError');
   const enterWithoutPassword = document.getElementById('enterWithoutPassword');
   const landingView = document.querySelector('.landing-view');
+  const cameFromHomeLink = sessionStorage.getItem(HOME_NAVIGATION_KEY) === 'true';
+  sessionStorage.removeItem(HOME_NAVIGATION_KEY);
+
+  if (!cameFromHomeLink) {
+    sessionStorage.removeItem(ACCESS_MODE_KEY);
+  }
 
   async function getArchivePasswords() {
     const response = await fetch('data/archive.json');
@@ -51,7 +56,12 @@ if (accessGate) {
     }
   }
 
-  landingView.inert = true;
+  const alreadyHasAccess = window.archiveAccess.hasChosenMode();
+  accessGate.hidden = alreadyHasAccess;
+  landingView.inert = !alreadyHasAccess;
+  if (alreadyHasAccess) {
+    document.body.classList.remove('landing-active');
+  }
   form.addEventListener('submit', async (event) => {
     event.preventDefault();
     errorMessage.hidden = true;
@@ -74,3 +84,19 @@ if (accessGate) {
 
   enterWithoutPassword.addEventListener('click', () => enterLibrary('limited'));
 }
+
+document.addEventListener('click', (event) => {
+  if (!(event.target instanceof Element)) {
+    return;
+  }
+
+  const homeLink = event.target.closest('a[href]');
+  if (!homeLink || !window.archiveAccess.hasChosenMode()) {
+    return;
+  }
+
+  const destination = new URL(homeLink.href, window.location.href);
+  if (destination.origin === window.location.origin && destination.pathname.endsWith('/index.html')) {
+    sessionStorage.setItem(HOME_NAVIGATION_KEY, 'true');
+  }
+});
