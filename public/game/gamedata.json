@@ -1,0 +1,43 @@
+{
+  "game": {
+    "name": "The Great Chase",
+    "description": "The party ended, the last kid Isfar left. Epstain running away with Isfar. Chase and catch Epstain so that you can share him with everyone and prevent epstain from alone enjoying him. jump and collect money, score highest.",
+    "controls": "Space / Arrow Up / tap to jump"
+  },
+  "characters": [
+    {
+      "name": "Ayman",
+      "description": "A fast archive runner ready to chase down the villain.",
+      "image": "aym.png"
+    },
+    {
+      "name": "Imtiaz",
+      "description": "A determined runner with a good jump and a long stride.",
+      "image": "imt.png"
+    },
+    {
+      "name": "Batman",
+      "description": "Ayman is the batman. Run being batman.",
+      "image": "batman.png"
+    }
+  ],
+  "villain": {
+    "name": "The Villain",
+    "description": "Its epstain running with the last kid. catch him",
+    "image": "villain.png"
+  },
+  "images": {
+    "background": {
+      "image": "background.webp",
+      "description": "The scenery behind the chase."
+    },
+    "obstacle": {
+      "image": "plane.gif",
+      "description": "A plane obstacle to jump over."
+    },
+    "coin": {
+      "image": "dollar.webp",
+      "description": "A dollar coin. Collect it to increase your coin count."
+    }
+  }
+}

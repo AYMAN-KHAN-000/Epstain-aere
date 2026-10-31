@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Library | Epstain Library</title>
+    <link rel="icon" type="image/x-icon" href="public/images/icon.ico">
+    <meta
+      name="description"
+      content="Browse and search the Epstain Library archive."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <script src="cursor.js" defer></script>
+    <script src="access.js" defer></script>
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <div class="app-shell">
+      <main class="view library-view active" aria-live="polite">
+        <header class="library-header panel">
+          <div class="header-left">
+            <button id="backToLibraryButton" class="back-button" type="button" hidden>
+              ← Back
+            </button>
+            <a class="back-button home-button" href="index.html" aria-label="Home">
+              <svg class="home-icon" viewBox="0 0 24 24" aria-hidden="true">
+                <path d="m3 10 9-7 9 7v10a1 1 0 0 1-1 1h-6v-7h-4v7H4a1 1 0 0 1-1-1z" />
+              </svg>
+              <span>Home</span>
+            </a>
+          </div>
+
+          <div class="header-center">
+            <div class="top-search-wrap">
+              <label class="search-bar" for="librarySearch">
+                <span class="search-icon">⌕</span>
+                <input
+                  id="librarySearch"
+                  type="text"
+                  placeholder="Search the archive…"
+                  aria-label="Search the library"
+                />
+              </label>
+            </div>
+          </div>
+
+          <div class="header-right">
+            <div class="toolbar-group">
+              <button class="ghost-button" type="button">Sort</button>
+              <button class="ghost-button" type="button">View</button>
+              <button class="ghost-button" type="button">Filter</button>
+            </div>
+          </div>
+        </header>
+
+        <section class="library-main">
+          <div class="section-header">
+            <div class="section-title-group">
+              <p class="micro-label">LIBRARY</p>
+              <div id="breadcrumb" class="breadcrumb"></div>
+            </div>
+          </div>
+
+          <div id="libraryContent" class="library-content"></div>
+        </section>
+      </main>
+    </div>
+  </body>
+</html>
