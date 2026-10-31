@@ -274,6 +274,12 @@ function openFile(itemId) {
 }
 
 async function loadArchive() {
+  if (!window.archiveAccess.hasChosenMode()) {
+    sessionStorage.setItem('epstainLibraryDestination', window.location.href);
+    window.location.replace('index.html');
+    return;
+  }
+
   const response = await fetch('data/archive.json');
   if (!response.ok) {
     throw new Error(`Could not load archive data (${response.status}).`);
@@ -285,7 +291,7 @@ async function loadArchive() {
   }
 
   topLevelFolders = archive.folders;
-  archiveItems = archive.items;
+  archiveItems = archive.items.filter((item) => window.archiveAccess.canViewItem(item));
   renderLibrary();
 }
 

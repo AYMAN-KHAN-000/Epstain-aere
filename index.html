@@ -17,9 +17,31 @@
     />
     <link rel="stylesheet" href="styles.css" />
     <script src="cursor.js" defer></script>
+    <script src="access.js" defer></script>
   </head>
   <body class="landing-active">
     <div class="app-shell">
+      <section class="access-gate" id="accessGate" role="dialog" aria-modal="true" aria-labelledby="accessGateTitle">
+        <form class="access-gate-card" id="accessGateForm">
+          <p class="eyebrow">ARCHIVE ACCESS</p>
+          <h2 id="accessGateTitle">Enter the library</h2>
+          <p class="access-gate-description">Enter an archive password to view every item.</p>
+          <label class="access-password-label" for="archivePassword">Password</label>
+          <input
+            class="access-password-input"
+            id="archivePassword"
+            type="password"
+            autocomplete="current-password"
+            autofocus
+            required
+          />
+          <p class="access-gate-error" id="accessGateError" role="alert" hidden></p>
+          <button class="primary-action access-gate-submit" type="submit">ENTER</button>
+          <button class="access-gate-limited" id="enterWithoutPassword" type="button">ENTER WITHOUT PASSWORD</button>
+          <p class="access-gate-notice">Without a password, items marked as protected in the archive will not be available.</p>
+        </form>
+      </section>
+
       <div class="view landing-view active">
         <div class="landing-noise"></div>
         <header class="landing-header">

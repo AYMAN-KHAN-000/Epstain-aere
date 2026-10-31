@@ -1,4 +1,6 @@
 {
+
+  "password":["EpstainLovesMiaKhalifa", "Ayman@flex.com" , "IamBatman090909", "imtiazxmashfi@epstain.com"],
   "folders": [
     "Entry",
     "MEETUPS",
@@ -16,19 +18,21 @@
       "id": "case-0001",
       "title": "Mikail with Epstain",
       "description": "The first time MR. Epstain and Mikail met, they hugged and greeted each other with a handshake. Mikail was so excited to meet Epstain that he jumped into his arms and hugged him tightly, causing Epstain to stumble back and fall onto the floor. The incident was witnessed by several people, who were both shocked and amused by the display of affection.",
-      "folders": ["Entry", "MEETUPS"],
+      "folders": ["Entry", "MEETUPS", "WITH EPSTAIN"],
       "category": "Entry",
       "date": "1987-06-14",
       "people": ["Mikail", "Epstain", "Mike","Miky","Miki"],
       "tags": ["Party", "members", "criminals", "meetup"],
       "metadata": "Case #0001 • Island • First meetup • 13:42",
-      "imageAddress": "public/images/mikail1.jpg"
+      "imageAddress": "public/images/mikail1.jpg",
+      "password": true
+
     },
     {
       "id": "case-0002",
       "title": "Imtiaz with Epstain",
       "description": "Imtiaz was invited for the party, after receiving the invitation, he fast went out for his brother Epstain. They tightly hugged each other, greeted each other with love and honor. The picture was captured by a friend, who was also invited for the party.",
-      "folder": ["Entry", "MEETUPS"],
+      "folders": ["Entry", "MEETUPS", "WITH EPSTAIN"],
       "category": "Entry",
       "date": "1987-06-14",
       "people": ["Imtiaz", "Epstain"],
@@ -64,7 +68,7 @@
       "id": "case-0005",
       "title": "Ayman with Epstain",
       "description": "Epstain sent his luxury yacht ship to pick up Ayman. After reaching the island, Epstain got up on the yacht and exchanged playful banter with 2 glasses of beer. The picture was taken by Ayman as a selfie.",
-      "folder": ["Entry", "MEETUPS"],
+      "folders": ["Entry", "MEETUPS", "WITH EPSTAIN"],
       "category": "Entry",
       "date": "1987-06-14",
       "people": ["Ayman", "Epstain", "Flex"],
@@ -76,7 +80,7 @@
       "id": "case-0006",
       "title": "Saim with Epstain",
       "description": "Mr. saim reached the party a day before other came. So, after the rest in Epstain's guest house, he went to the swimmingpool with Epstain. The picture was captured by a caretaker of Epstain.",
-      "folder": ["Entry", "MEETUPS"],
+      "folders": ["Entry", "MEETUPS", "WITH EPSTAIN"],
       "category": "Entry",
       "date": "1987-06-14",
       "people": ["Saim", "Epstain"],
@@ -88,13 +92,25 @@
       "id": "case-0007",
       "title": "Mashfi's Entry in the island",
       "description": "Epstain sent his luxuary helicopter to pick up Mashfi. After reaching the island, he was welcomed by Epstain and they both hugged each other. The picture was captured by a friend of Epstain.",
-      "folder": ["Entry", "MEETUPS"],
+      "folders": ["Entry", "MEETUPS", "WITH EPSTAIN"],
       "category": "Entry",
       "date": "1987-06-14",
       "people": ["Mashfi", "Epstain"],
       "tags": ["Party", "members", "criminals", "meetup"],
       "metadata": "Case #0007 • Island • First meetup • 14:50",
       "imageAddress": "public/images/msf1.png"
+    },
+    {
+      "id": "case-0009",
+      "title": "Eku in the island",
+      "description": "Eku is in the swimmingpool flexing his body in epstain island. He just reached and enjoying before the party starts.",
+      "folders": ["Entry","CRINGE"],
+      "category": "Entry",
+      "date": "1987-06-14",
+      "people": ["Mashfi", "Epstain"],
+      "tags": ["Party", "members", "criminals", "meetup"],
+      "metadata": "Case #0007 • Island • First meetup • 14:50",
+      "imageAddress": "public/images/wku1.jpg"
     },
     {
       "id": "case-0008",
@@ -106,7 +122,8 @@
       "people": ["Mashfi", "Epstain"],
       "tags": ["Party", "members", "criminals", "meetup"],
       "metadata": "Case #0008 • Island • First meetup • 14:50",
-      "imageAddress": "public/images/bac1.jpg"
+      "imageAddress": "public/images/bac1.jpg",
+      "password":true
     },
     {
       "id": "case-0010",
@@ -118,7 +135,9 @@
       "people": ["Mashfi", "Epstain"],
       "tags": ["Party", "members", "criminals", "meetup"],
       "metadata": "Case #0010 • Island • First meetup • 14:50",
-      "imageAddress": "public/images/aere.jpg"
+      "imageAddress": "public/images/aere.jpg",
+      "password":true
+
     },
 
 

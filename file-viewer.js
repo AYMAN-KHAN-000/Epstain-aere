@@ -41,6 +41,12 @@ function getItemFolders(item) {
 }
 
 async function loadFile() {
+  if (!window.archiveAccess.hasChosenMode()) {
+    sessionStorage.setItem('epstainLibraryDestination', window.location.href);
+    window.location.replace('index.html');
+    return;
+  }
+
   const params = new URLSearchParams(window.location.search);
   const itemId = params.get('id');
   if (!itemId) {
@@ -66,7 +72,11 @@ async function loadFile() {
 
   const archive = await response.json();
   const item = archive.items?.find((archiveItem) => archiveItem.id === itemId);
-  if (!item || !item.imageAddress) {
+  if (!item || !window.archiveAccess.canViewItem(item)) {
+    showViewerError('The selected archive file could not be found or is unavailable without a password.');
+    return;
+  }
+  if (!item.imageAddress) {
     showViewerError('The selected archive file could not be found.');
     return;
   }
