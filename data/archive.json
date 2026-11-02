@@ -107,19 +107,19 @@
       "folders": ["Entry","CRINGE"],
       "category": "Entry",
       "date": "1987-06-14",
-      "people": ["Mashfi", "Epstain"],
+      "people": ["Eku", "Epstain"],
       "tags": ["Party", "members", "criminals", "meetup"],
-      "metadata": "Case #0007 • Island • First meetup • 14:50",
+      "metadata": "Case #0009 • Island • First meetup • 14:50",
       "imageAddress": "public/images/wku1.jpg"
     },
     {
       "id": "case-0008",
       "title": "BAC member's Entry.",
       "description": "All the members of BAC reached the island for the party. They were so excited for the party that they jumped screaming and shouting. The picture was captured by a friend of Epstain.",
-      "folder": "Entry",
+      "folder": ["Entry","CASES"],
       "category": "Entry",
       "date": "1987-06-13",
-      "people": ["Mashfi", "Epstain"],
+      "people": ["Patha","Shawon","Naim", "Raihan", "Epstain"],
       "tags": ["Party", "members", "criminals", "meetup"],
       "metadata": "Case #0008 • Island • First meetup • 14:50",
       "imageAddress": "public/images/bac1.jpg",
@@ -130,14 +130,26 @@
       "title": "AERE member's Entry.",
       "description": "All the members of AERE reached the island for the party. the photo is in the party while they were taking dinner with epstain.",
       "folder": ["Entry", "PARTY"],
-      "category": ["Entry", " MEETUPS"],
+      "category": ["Entry", " MEETUPS","CASES"],
       "date": "1987-06-20",
-      "people": ["Mashfi", "Epstain"],
+      "people": ["Afzal","Forid","Somor","Zahid","Mostofa", "Epstain"],
       "tags": ["Party", "members", "criminals", "meetup"],
       "metadata": "Case #0010 • Island • First meetup • 14:50",
       "imageAddress": "public/images/aere.jpg",
       "password":true
 
+    },
+    {
+      "id": "case-0011",
+      "title": "Zulfiqure and Zuhair's Entry",
+      "description": "Zulfiqure ans Zuhair reached the island for the party. After reaching, They went out for visiting the island fully with a car. The photo was captured by Epstain's island guard.",
+      "folders": ["Entry","CRINGE","CASES"],
+      "category": "Entry",
+      "date": "1987-06-14",
+      "people": ["Zulfiqure", "Zuhair", "Epstain"],
+      "tags": ["Party", "members", "criminals", "meetup"],
+      "metadata": "Case #0011 • Island • First meetup • 14:50",
+      "imageAddress": "public/images/zul2.png"
     },
 
 
@@ -235,6 +247,18 @@
       "tags": ["Zuhair", "members", "criminals", "Party","People"],
       "metadata": "Criminals • Island • Party • Members",
       "imageAddress": "public/images/adib1.jpg"
+    },
+    {
+      "id": "criminal-0008",
+      "title": "SHAKIBUL HASAN — THE HA ENDLESS",
+      "description": "Shakibul Hasan is a legendary businessman from Bangladesh and the mysterious heir of the powerful Rocktel family. With enormous influence over international banking, global finance and powerful institutions, he is believed to be one of the most influential men in the world. He deliberately chose Bangladesh as his home, a perfect base from which to extend his worldwide influence while keeping his identity hidden. Known as The HA ENDLESS among the world's most powerful leaders, he maintains connections with presidents, billionaires and influential rulers, including Donald Trump and Jeffrey Epstein. Despite his extraordinary connections, almost no photographs of him with these personalities exist. He avoids publicity, interviews and unnecessary attention. Ruthless, intelligent, unpredictable and exceptionally secretive, Shakibul doesn't chase power or recognition—he operates from the shadows, where his decisions can change the course of the world.",
+      "folder": "CRIMINALS",
+      "category": "CRIMINALS",
+      
+      
+      "tags": ["Shakibul", "members", "criminals", "Party","People"],
+      "metadata": "Criminals • Island • Party • Members",
+      "imageAddress": "public/images/sakib1.jpg"
     },
    
 
