@@ -260,6 +260,43 @@
       "metadata": "Criminals • Island • Party • Members",
       "imageAddress": "public/images/sakib1.jpg"
     },
+    {
+      "id": "criminal-0009",
+      "title": "Mr. Mikail",
+      "description": "Mr. Mikail is a Arabian camel trader and illegal Sanda dealer. He is also known as Zin er Badsha. He is a child supplier of Epstein. He is also a member of the party in the island. He is known for his illegal activities and has been involved in various criminal enterprises. He is a close associate of Epstein and has been seen in several photographs with him. He is also known for his luxurious lifestyle and has a significant following on social media platforms.",
+      "folder": "CRIMINALS",
+      "category": "CRIMINALS",
+      "password": true,
+      
+      "tags": ["Mike","Miky","Miki","Mikail", "members", "criminals", "Party","People"],
+      "metadata": "Criminals • Island • Party • Members",
+      "imageAddress": "public/images/mikail2.jpg"
+    },
+
+    {
+      "id": "criminal-0010",
+      "title": "Jabir",
+      "description": "Jabir was the Awami league's Prime Minister of Bangladesh in 90s. He was a very powerful and influential political figure in Bangladesh. He had political connections with Epstain and was also a member of the party in the island.",
+      "folder": "CRIMINALS",
+      "category": "CRIMINALS",
+      
+      
+      "tags": ["Jabir", "members", "criminals", "Party","People"],
+      "metadata": "Criminals • Island • Party • Members",
+      "imageAddress": "public/images/jabir1.png"
+    },
+    {
+      "id": "criminal-0011",
+      "title": "Prism",
+      "description": "Prism is Banglsdesh President in 80s. He was connected to several criminal organizations. He was a very powerful and influential political figure in Bangladesh. He had political connections with Epstain and was also a member of the party in the island.",
+      "folder": "CRIMINALS",
+      "category": "CRIMINALS",
+      
+      
+      "tags": ["Prism", "members", "criminals", "Party","People"],
+      "metadata": "Criminals • Island • Party • Members",
+      "imageAddress": "public/images/prism1.png"
+    },
    
 
 
